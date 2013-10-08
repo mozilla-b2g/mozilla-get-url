@@ -8,6 +8,20 @@ suite('channels/release', function() {
     }, /os/);
   });
 
+  test('will report invalid operating system', function(done) {
+    get({ os: 'xfoo' }, function(err) {
+      assert.ok(err, 'has error');
+      done();
+    });
+  });
+
+  test('will report invalid lang', function(done) {
+    get({ os: 'win32', language: 'xfoo' }, function(err, url) {
+      assert.ok(err, 'has error');
+      done();
+    });
+  });
+
   // operating systems
   [
     'linux-i686',
