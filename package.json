@@ -23,7 +23,8 @@
     "url": "https://github.com/mozilla-b2g/mozilla-get-url/issues"
   },
   "dependencies": {
-    "jsftp": "~1.1.1"
+    "jsftp": "~1.1.1",
+    "debug": "~0.7.2"
   },
   "devDependencies": {
     "mocha": "~1.13.0",
