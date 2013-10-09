@@ -10,7 +10,7 @@ uses ftp rather then html scraping.
 ## Usage
 
 ```js
-var locate = require('mozilla-get-url').locate;
+var locate = require('mozilla-get-url');
 
 var options = {
   /*

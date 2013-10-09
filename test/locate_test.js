@@ -1,6 +1,6 @@
 suite('channels/release', function() {
-  var locate = require('../').locate,
-      verifyGet = require('./support/get_suite')(locate);
+  var get = require('../'),
+      verifyGet = require('./support/get_suite')(get);
 
   suite('release channel', function() {
     // latest

@@ -37,8 +37,8 @@ if (!program.os) {
   process.exit();
 }
 
-var locate = require('../').locate;
-locate(program, function(err, url) {
+var get = require('../');
+get(program, function(err, url) {
   if (err) {
     throw err;
   }
