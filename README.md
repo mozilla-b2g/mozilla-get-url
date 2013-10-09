@@ -2,7 +2,7 @@
 
 Find the url where a given mozilla product lives for all kinds of branches / releases / pre-releases.
 
-Inspired by (firefox-get)[https://github.com/jsantell/node-firefox-get] which I initially contributed to for the
+Inspired by [firefox-get](https://github.com/jsantell/node-firefox-get) which I initially contributed to for the
 b2g-support... The primary difference is mozilla-get-url is designed to handle most mozilla products up front and
 uses ftp rather then html scraping.
 
@@ -30,7 +30,8 @@ var options = {
     - optional
     - default: 'en-US'
 
-  this only is used with releases (not channel opts, not tinderbox opts)
+  this only is used with releases (not channel opts, not tinderbox opts).
+  List of languages: http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/
   */
   language: 'en-US',
 
@@ -45,8 +46,8 @@ var options = {
 
   /**
     - optional
-    - default: none
-    - examples: ['beta', 'aurora', 'nightly', 'mozilla-central']
+    - default: release
+    - examples: ['release', 'beta', 'aurora', 'nightly', 'mozilla-central']
   
   "nightly" (as in built every 24 hours) builds on various channels. 
   */

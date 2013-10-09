@@ -12,6 +12,11 @@ suite('channels/release', function() {
     verifyGet({ os: 'mac', version: '17.0' }, function() {
       assert(this.url.indexOf('17') !== -1);
     });
+
+    // explicit release channel
+    verifyGet({ os: 'mac', channel: 'release' }, function() {
+      assert(this.url.indexOf('releases') !== -1, 'uses release channel');
+    });
   });
 
   suite('pre-release channel', function() {
