@@ -1,0 +1,1865 @@
+[
+  {
+    "name": "b2g-26.0a1.multi.linux-i686-localizer.checksums",
+    "type": 0,
+    "time": 1379989680000,
+    "size": "1494",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-i686-localizer.json",
+    "type": 0,
+    "time": 1379989680000,
+    "size": "784",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-i686-localizer.tar.bz2",
+    "type": 0,
+    "time": 1379989680000,
+    "size": "103269470",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-i686-localizer.tests.zip",
+    "type": 0,
+    "time": 1379989680000,
+    "size": "105688892",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-i686-localizer.txt",
+    "type": 0,
+    "time": 1379989680000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-i686.checksums",
+    "type": 0,
+    "time": 1379989620000,
+    "size": "1374",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-i686.json",
+    "type": 0,
+    "time": 1379989620000,
+    "size": "774",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-i686.tar.bz2",
+    "type": 0,
+    "time": 1379989620000,
+    "size": "100713631",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-i686.tests.zip",
+    "type": 0,
+    "time": 1379989620000,
+    "size": "105690206",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-i686.txt",
+    "type": 0,
+    "time": 1379989620000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-x86_64-localizer.checksums",
+    "type": 0,
+    "time": 1379989500000,
+    "size": "1518",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-x86_64-localizer.json",
+    "type": 0,
+    "time": 1379989500000,
+    "size": "814",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-x86_64-localizer.tar.bz2",
+    "type": 0,
+    "time": 1379989500000,
+    "size": "103385943",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-x86_64-localizer.tests.zip",
+    "type": 0,
+    "time": 1379989500000,
+    "size": "105413159",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-x86_64-localizer.txt",
+    "type": 0,
+    "time": 1379989500000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-x86_64.checksums",
+    "type": 0,
+    "time": 1379990520000,
+    "size": "1398",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-x86_64.json",
+    "type": 0,
+    "time": 1379990520000,
+    "size": "804",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-x86_64.tar.bz2",
+    "type": 0,
+    "time": 1379990520000,
+    "size": "100760489",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-x86_64.tests.zip",
+    "type": 0,
+    "time": 1379990520000,
+    "size": "105415928",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.linux-x86_64.txt",
+    "type": 0,
+    "time": 1379990520000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.mac64-localizer.checksums",
+    "type": 0,
+    "time": 1379987160000,
+    "size": "1416",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.mac64-localizer.dmg",
+    "type": 0,
+    "time": 1379987160000,
+    "size": "99146777",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.mac64-localizer.json",
+    "type": 0,
+    "time": 1379987160000,
+    "size": "897",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.mac64-localizer.tests.zip",
+    "type": 0,
+    "time": 1379987160000,
+    "size": "79672902",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.mac64-localizer.txt",
+    "type": 0,
+    "time": 1379987160000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.mac64.checksums",
+    "type": 0,
+    "time": 1379987520000,
+    "size": "1296",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.mac64.dmg",
+    "type": 0,
+    "time": 1379987520000,
+    "size": "96609134",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.mac64.json",
+    "type": 0,
+    "time": 1379987520000,
+    "size": "887",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.mac64.tests.zip",
+    "type": 0,
+    "time": 1379987520000,
+    "size": "79671596",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.mac64.txt",
+    "type": 0,
+    "time": 1379987520000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.win32-localizer.checksums",
+    "type": 0,
+    "time": 1379989020000,
+    "size": "1428",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.win32-localizer.json",
+    "type": 0,
+    "time": 1379989020000,
+    "size": "710",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.win32-localizer.tests.zip",
+    "type": 0,
+    "time": 1379989020000,
+    "size": "74348982",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.win32-localizer.txt",
+    "type": 0,
+    "time": 1379989020000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.win32-localizer.zip",
+    "type": 0,
+    "time": 1379989020000,
+    "size": "96461747",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.win32.checksums",
+    "type": 0,
+    "time": 1379988960000,
+    "size": "1308",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.win32.json",
+    "type": 0,
+    "time": 1379988960000,
+    "size": "700",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.win32.tests.zip",
+    "type": 0,
+    "time": 1379988960000,
+    "size": "74348860",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.win32.txt",
+    "type": 0,
+    "time": 1379988960000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-26.0a1.multi.win32.zip",
+    "type": 0,
+    "time": 1379988960000,
+    "size": "94049777",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-i686-localizer.checksums",
+    "type": 0,
+    "time": 1380053220000,
+    "size": "1494",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-i686-localizer.json",
+    "type": 0,
+    "time": 1380053220000,
+    "size": "784",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-i686-localizer.tar.bz2",
+    "type": 0,
+    "time": 1380053220000,
+    "size": "105313495",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-i686-localizer.tests.zip",
+    "type": 0,
+    "time": 1380053220000,
+    "size": "105963619",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-i686-localizer.txt",
+    "type": 0,
+    "time": 1380053220000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-i686.checksums",
+    "type": 0,
+    "time": 1380053340000,
+    "size": "1374",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-i686.json",
+    "type": 0,
+    "time": 1380053340000,
+    "size": "774",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-i686.tar.bz2",
+    "type": 0,
+    "time": 1380053340000,
+    "size": "102719471",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-i686.tests.zip",
+    "type": 0,
+    "time": 1380053340000,
+    "size": "105969636",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-i686.txt",
+    "type": 0,
+    "time": 1380053340000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-x86_64-localizer.checksums",
+    "type": 0,
+    "time": 1380054120000,
+    "size": "1518",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-x86_64-localizer.json",
+    "type": 0,
+    "time": 1380054120000,
+    "size": "814",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-x86_64-localizer.tar.bz2",
+    "type": 0,
+    "time": 1380054120000,
+    "size": "105426980",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-x86_64-localizer.tests.zip",
+    "type": 0,
+    "time": 1380054120000,
+    "size": "105686193",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-x86_64-localizer.txt",
+    "type": 0,
+    "time": 1380054120000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-x86_64.checksums",
+    "type": 0,
+    "time": 1380053460000,
+    "size": "1398",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-x86_64.json",
+    "type": 0,
+    "time": 1380053460000,
+    "size": "804",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-x86_64.tar.bz2",
+    "type": 0,
+    "time": 1380053460000,
+    "size": "102809276",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-x86_64.tests.zip",
+    "type": 0,
+    "time": 1380053460000,
+    "size": "105691896",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.linux-x86_64.txt",
+    "type": 0,
+    "time": 1380053460000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.mac64-localizer.checksums",
+    "type": 0,
+    "time": 1380051120000,
+    "size": "1419",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.mac64-localizer.dmg",
+    "type": 0,
+    "time": 1380051120000,
+    "size": "101090816",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.mac64-localizer.json",
+    "type": 0,
+    "time": 1380051120000,
+    "size": "897",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.mac64-localizer.tests.zip",
+    "type": 0,
+    "time": 1380051120000,
+    "size": "79922292",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.mac64-localizer.txt",
+    "type": 0,
+    "time": 1380051120000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.mac64.checksums",
+    "type": 0,
+    "time": 1380051000000,
+    "size": "1296",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.mac64.dmg",
+    "type": 0,
+    "time": 1380051000000,
+    "size": "98552727",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.mac64.json",
+    "type": 0,
+    "time": 1380051000000,
+    "size": "887",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.mac64.tests.zip",
+    "type": 0,
+    "time": 1380051000000,
+    "size": "79921530",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.mac64.txt",
+    "type": 0,
+    "time": 1380051000000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.win32-localizer.checksums",
+    "type": 0,
+    "time": 1380054180000,
+    "size": "1428",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.win32-localizer.json",
+    "type": 0,
+    "time": 1380054180000,
+    "size": "710",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.win32-localizer.tests.zip",
+    "type": 0,
+    "time": 1380054180000,
+    "size": "74621388",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.win32-localizer.txt",
+    "type": 0,
+    "time": 1380054180000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.win32-localizer.zip",
+    "type": 0,
+    "time": 1380054180000,
+    "size": "98382148",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.win32.checksums",
+    "type": 0,
+    "time": 1380053340000,
+    "size": "1308",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.win32.json",
+    "type": 0,
+    "time": 1380053340000,
+    "size": "700",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.win32.tests.zip",
+    "type": 0,
+    "time": 1380053340000,
+    "size": "74621948",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.win32.txt",
+    "type": 0,
+    "time": 1380053340000,
+    "size": "67",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "b2g-27.0a1.multi.win32.zip",
+    "type": 0,
+    "time": 1380053340000,
+    "size": "95975001",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
+    "name": "en-US",
+    "type": 1,
+    "time": 1380053940000,
+    "size": "12288",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": true
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": true
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": true
+    }
+  }
+]
