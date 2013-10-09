@@ -20,7 +20,7 @@ module.exports = function suiteHelper(subject) {
       });
 
       // user provided fn
-      test('url', testFn);
+      if (testFn) test('url', testFn);
 
       // verify the url actually exists
       test('exists on http site', function(done) {
