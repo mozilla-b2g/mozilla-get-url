@@ -6,6 +6,9 @@
   "scripts": {
     "test": "make test"
   },
+  "bin": {
+    "mozilla-get-url": "./bin/mozilla-get-url"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/mozilla-b2g/mozilla-get-url"
