@@ -2,12 +2,6 @@ suite('channels/release', function() {
   var get = require('../../lib/channels/release'),
       verifyGet = require('../support/get_suite')(get);
 
-  test('no os', function() {
-    assert.throws(function() {
-      get({}, function() {});
-    }, /os/);
-  });
-
   test('will report invalid operating system', function(done) {
     get({ os: 'xfoo' }, function(err) {
       assert.ok(err, 'has error');
