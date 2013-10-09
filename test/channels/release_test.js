@@ -29,6 +29,14 @@ suite('channels/release', function() {
         'is for correct os: ' + this.url
       );
     });
+
+    // latest beta
+    verifyGet({ os: os, version: 'beta' }, function() {
+      assert(
+        this.url.indexOf(os) !== -1,
+        'is for correct os: ' + this.url
+      );
+    });
   });
 
   // verify some versions
@@ -36,7 +44,7 @@ suite('channels/release', function() {
     '3.0',
     '11.0',
     '18.0b2',
-    '22.0'
+    '22.0',
   ].forEach(function(version) {
     verifyGet({ os: 'mac', version: version }, function() {
       assert(
