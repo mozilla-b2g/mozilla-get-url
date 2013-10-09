@@ -66,3 +66,13 @@ locate(options, function(err, url) {
   url; // => http url to the build
 });
 ```
+
+## CLI Usage
+
+```sh
+# get latest firefox
+mozilla-get-url --os mac
+
+# get latest b2g-desktop from mozilla central
+mozilla-get-url --os mac --tinderbox mozilla-central --product b2g
+```
