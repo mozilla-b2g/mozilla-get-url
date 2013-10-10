@@ -1,6 +1,6 @@
 {
   "name": "mozilla-get-url",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Utility to get the url of a particular version/release of a mozilla product (like firefox/b2g)",
   "main": "lib/locate.js",
   "scripts": {
