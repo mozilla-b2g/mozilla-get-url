@@ -6,7 +6,7 @@ suite('tinderbox_build_filter', function() {
     function opts(os) {
       return {
         product: 'b2g',
-        tinderbox: 'mozilla-central',
+        branch: 'mozilla-central',
         os: os
       };
     }
@@ -44,7 +44,7 @@ suite('tinderbox_build_filter', function() {
     var fixture = require('./fixtures/tinderbox_firefox.json');
     function opts(os) {
       return {
-        tinderbox: 'mozilla-central',
+        branch: 'mozilla-central',
         os: os
       };
     }

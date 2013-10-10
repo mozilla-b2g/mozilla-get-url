@@ -9,7 +9,7 @@ suite('channels/release', function() {
     });
 
     // specific release
-    verifyGet({ os: 'mac', version: '17.0' }, function() {
+    verifyGet({ os: 'mac', branch: '17.0' }, function() {
       assert(this.url.indexOf('17') !== -1);
     });
 
@@ -20,18 +20,31 @@ suite('channels/release', function() {
   });
 
   suite('pre-release channel', function() {
-    verifyGet({ os: 'mac', product: 'b2g', channel: 'aurora' }, function() {
-      assert(this.url.indexOf('aurora'));
-    });
+    var options =
+      { os: 'mac', product: 'b2g', channel: 'prerelease', branch: 'aurora' };
 
-    verifyGet({ os: 'mac', channel: 'beta' }, function() {
-      assert(this.url.indexOf('beta'));
+    verifyGet(options, function() {
+      assert(this.url.indexOf('aurora'));
     });
   });
 
   suite('tinderbox', function() {
-    verifyGet({ os: 'mac', product: 'b2g', tinderbox: 'mozilla-central' });
-    verifyGet({ os: 'mac', product: 'firefox', tinderbox: 'mozilla-central' });
+    function opts(product) {
+      return {
+        os: 'mac',
+        product: product,
+        branch: 'mozilla-central',
+        channel: 'tinderbox'
+      };
+    }
+
+    verifyGet(opts('firefox'), function() {
+      assert(this.url.indexOf('firefox/tinderbox') !== -1);
+    });
+
+    verifyGet(opts('b2g'), function() {
+      assert(this.url.indexOf('b2g/tinderbox') !== -1);
+    });
   });
 });
 

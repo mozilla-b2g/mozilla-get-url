@@ -6,9 +6,16 @@ suite('channels/pre_release', function() {
   var BRANCHES = ['aurora', 'mozilla-central', 'nightly'];
 
   // firefox operating systems
-  BRANCHES.forEach(function(channel) {
+  BRANCHES.forEach(function(branch) {
     forEachOS(function(os) {
-      verifyGet({ channel: channel, os: os }, function() {
+      var options = {
+        branch: branch,
+        os: os,
+        channel: 'prerelease',
+        product: 'firefox'
+      };
+
+      verifyGet(options, function() {
         assert.ok(this.url.indexOf('firefox') !== -1, 'is firefox:' + this.url);
         assert.ok(this.url.indexOf(os) !== -1, 'has os: ' + this.url);
       });
@@ -16,9 +23,16 @@ suite('channels/pre_release', function() {
   });
 
   // b2g operating systems
-  BRANCHES.forEach(function(channel) {
+  BRANCHES.forEach(function(branch) {
     ['mac', 'linux-i686', 'linux-x86_64'].forEach(function(os) {
-      verifyGet({ channel: channel, os: os, product: 'b2g' }, function() {
+      var options = {
+         branch: branch,
+         os: os,
+         product: 'b2g',
+         channel: 'prerelease'
+      };
+
+      verifyGet(options, function() {
         assert.ok(this.url.indexOf('b2g') !== -1, 'is firefox:' + this.url);
         assert.ok(this.url.indexOf(os) !== -1, 'has os: ' + this.url);
       });

@@ -5,20 +5,21 @@ suite('channels/release', function() {
   suite('firefox', function() {
     function opts(os) {
       return {
+        product: 'firefox',
         os: os,
-        tinderbox: 'mozilla-central'
+        branch: 'mozilla-central'
       };
     }
 
-    verifyGet({ os: 'mac', tinderbox: 'mozilla-central' }, function() {
+    verifyGet(opts('mac'), function() {
       assert(this.url.indexOf('macosx64') !== -1);
     });
 
-    verifyGet({ os: 'win32', tinderbox: 'mozilla-central' }, function() {
+    verifyGet(opts('win32'), function() {
       assert(this.url.indexOf('win32') !== -1);
     });
 
-    verifyGet({ os: 'linux-x86_64', tinderbox: 'mozilla-central' }, function() {
+    verifyGet(opts('linux-x86_64'), function() {
       assert(this.url.indexOf('linux64') !== -1);
     });
   });
@@ -27,20 +28,16 @@ suite('channels/release', function() {
     function opts(os) {
       return {
         os: os,
-        tinderbox: 'mozilla-central',
+        branch: 'mozilla-central',
         product: 'b2g'
       };
     }
 
-    verifyGet({ os: 'mac', tinderbox: 'mozilla-central' }, function() {
+    verifyGet(opts('mac'), function() {
       assert(this.url.indexOf('macosx64') !== -1);
     });
 
-    verifyGet({ os: 'win32', tinderbox: 'mozilla-central' }, function() {
-      assert(this.url.indexOf('win32') !== -1);
-    });
-
-    verifyGet({ os: 'linux-x86_64', tinderbox: 'mozilla-central' }, function() {
+    verifyGet(opts('linux-x86_64'), function() {
       assert(this.url.indexOf('linux64') !== -1);
     });
   });

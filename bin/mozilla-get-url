@@ -4,16 +4,16 @@ var program = require('commander');
 
 program.
   option(
-    '--os <os>', 
+    '--os <os>',
     'operating system to find build for [mac, win32, linux-i686, linux-x86_64]'
   ).
   option(
-    '-l, --langauge [lang]',
-    'language of build (not used in --tinderbox or --channel)'
+    '-l, --language [lang]',
+    'language of build (not used in prerelease or tinderbox channels)'
   ).
   option(
-    '--version [version]',
-    'release version [latest, 24.0]',
+    '--branch [version]',
+    'release version [latest, 24.0, mozilla-central]',
     'latest'
   ).
   option(
@@ -23,11 +23,8 @@ program.
   ).
   option(
     '-c, --channel [name]',
-    'pre-release channel [aurora, beta, nightly]'
-  ).
-  option(
-    '--tinderbox [folder]',
-    'tinderbox release folder [mozilla-central]'
+    'pre-release channel [tinderbox, release, prerelease]',
+    'release'
   ).
   parse(process.argv);
 

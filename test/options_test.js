@@ -21,7 +21,8 @@ suite('options', function() {
       {
         os: 'mac',
         product: 'firefox',
-        version: 'latest',
+        channel: 'release',
+        branch: 'latest',
         language: 'en-US'
       }
     );
