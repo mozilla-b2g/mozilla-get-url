@@ -1,5 +1,4 @@
 #! /usr/bin/env node
-
 var program = require('commander');
 
 program.
@@ -25,19 +24,25 @@ program.
     '-c, --channel [name]',
     'pre-release channel [tinderbox, release, prerelease]',
     'release'
-  ).
-  parse(process.argv);
+  );
 
-if (!program.os) {
-  console.error('  --os is required');
-  program.outputHelp();
-  process.exit();
+function main() {
+  program.parse(process.argv);
+
+  if (!program.os) {
+    console.error('  --os is required');
+    program.outputHelp();
+    process.exit();
+  }
+
+  var get = require('../');
+  get(program, function(err, url) {
+    if (err) {
+      throw err;
+    }
+    console.log(url);
+  });
 }
 
-var get = require('../');
-get(program, function(err, url) {
-  if (err) {
-    throw err;
-  }
-  console.log(url);
-});
+if (require.main === module) main();
+module.exports = program;
