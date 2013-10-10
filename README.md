@@ -13,24 +13,37 @@ uses ftp rather then html scraping.
 var locate = require('mozilla-get-url');
 
 var options = {
+  /**
+    - optional
+    - default: release
+    - examples: ['release', 'prerelease', 'tinderbox']
+  
+  Channels determine how builds are fetched and map to lib/channels/$CHANNEL.
+  Not all options are available across all channels
+  */
+  channel: null,
+
   /*
     - required
     - examples: 'win32', 'mac', 'linux-i686', 'linux-x86_64'
   */
   os: 'mac',
+
   /*
     - optional
     - default: 'latest'
-    - examples: '17.0', '3.6'
+    - examples (release channel): '17.0', '3.6', 'latest', 'beta'
+    - examples (prerelease channel): 'aurora', 'nightly', 'mozilla-central'
+    - examples (tinderbox channel): 'mozilla-central', 'mozilla-inbound'
 
-  this only is used with releases (not channel opts, not tinderbox opts)
+  What type of available branches vary on the channel.
   */
-  version: '17.0',
+  branch: '17.0',
   /*
     - optional
     - default: 'en-US'
 
-  this only is used with releases (not channel opts, not tinderbox opts).
+  Only used in the "release" channel.
   List of languages: http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/linux-x86_64/
   */
   language: 'en-US',
@@ -44,23 +57,6 @@ var options = {
   */
   product: 'firefox',
 
-  /**
-    - optional
-    - default: release
-    - examples: ['release', 'beta', 'aurora', 'nightly', 'mozilla-central']
-  
-  "nightly" (as in built every 24 hours) builds on various channels. 
-  */
-  channel: null,
-
-  /**
-    - optional
-    - default: none
-    - examples: ['mozilla-central', 'mozilla-inbound', 'mozilla-inbound-b2g']
-
-  Latest and greatest (current) builds... These are the same builds used in TBPL test runs.
-  */
-  tinderbox: null
 };
 
 locate(options, function(err, url) {
@@ -75,5 +71,5 @@ locate(options, function(err, url) {
 mozilla-get-url --os mac
 
 # get latest b2g-desktop from mozilla central
-mozilla-get-url --os mac --tinderbox mozilla-central --product b2g
+mozilla-get-url --channel tinderbox --os mac --branch mozilla-central --product b2g
 ```
