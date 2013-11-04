@@ -16,7 +16,7 @@ var options = {
   /**
     - optional
     - default: release
-    - examples: ['release', 'prerelease', 'tinderbox']
+    - examples: ['release', 'prerelease', 'tinderbox', 'try']
   
   Channels determine how builds are fetched and map to lib/channels/$CHANNEL.
   Not all options are available across all channels
@@ -35,6 +35,7 @@ var options = {
     - examples (release channel): '17.0', '3.6', 'latest', 'beta'
     - examples (prerelease channel): 'aurora', 'nightly', 'mozilla-central'
     - examples (tinderbox channel): 'mozilla-central', 'mozilla-inbound'
+    - examples (try channel): 'email@something.com-rev'
 
   What type of available branches vary on the channel.
   */
