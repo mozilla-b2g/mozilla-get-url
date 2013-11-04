@@ -3,7 +3,7 @@ suite('channels/pre_release', function() {
       verifyGet = require('../support/get_suite')(get),
       forEachOS = require('../support/for_each_os');
 
-  var BRANCHES = ['aurora', 'mozilla-central', 'nightly'];
+  var BRANCHES = ['aurora', 'mozilla-central', 'nightly', ''];
 
   // firefox operating systems
   BRANCHES.forEach(function(branch) {
@@ -22,8 +22,12 @@ suite('channels/pre_release', function() {
     });
   });
 
+  var B2G_BRANCHES = BRANCHES.concat([
+    'nightly/latest-mozilla-b2g26_v1_2/'
+  ]);
+
   // b2g operating systems
-  BRANCHES.forEach(function(branch) {
+  B2G_BRANCHES.forEach(function(branch) {
     ['mac', 'linux-i686', 'linux-x86_64'].forEach(function(os) {
       var options = {
          branch: branch,
