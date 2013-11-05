@@ -3,7 +3,7 @@ suite('channels/release', function() {
       opts = require('../../lib/options'),
       verifyGet = require('../support/get_suite')(get);
 
-  suite('fabrice try', function() {
+  suite.skip('fabrice try', function() {
     function opts(os) {
       return {
         product: 'b2g',
