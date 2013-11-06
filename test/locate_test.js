@@ -19,18 +19,6 @@ suite('channels/release', function() {
     });
   });
 
-  suite('try', function() {
-    var options = {
-      os: 'linux-x86_64',
-      channel: 'try',
-      branch: 'fdesre@mozilla.com-edae0a5285ac'
-    };
-
-    verifyGet(options, function() {
-      assert.ok(this.url.indexOf('try') !== -1);
-    });
-  });
-
   suite('pre-release channel', function() {
     var options =
       { os: 'mac', product: 'b2g', channel: 'prerelease', branch: 'aurora' };
