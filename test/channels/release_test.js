@@ -45,7 +45,7 @@ suite('channels/release', function() {
     '3.0',
     '11.0',
     '18.0b2',
-    '22.0',
+    '22.0'
   ].forEach(function(branch) {
     verifyGet(opts({ os: 'mac', branch: branch }), function() {
       assert(

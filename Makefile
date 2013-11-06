@@ -7,7 +7,7 @@ test: node_modules
 .PHONY: lint
 lint:
 	gjslint --recurse . \
-		--disable "220,225,0211,0212,0217" \
+		--disable "220,225,0211,0212,0217,0210" \
 		--exclude_directories "examples,node_modules,b2g,api-design"
 
 node_modules:
