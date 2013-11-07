@@ -1,4 +1,4 @@
-suite('channels/release', function() {
+suite('channels/tinderbox', function() {
   var get = require('../../lib/channels/tinderbox'),
       verifyGet = require('../support/get_suite')(get);
 
