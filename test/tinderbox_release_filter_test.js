@@ -4,9 +4,9 @@ suite('tinderbox_release_filter', function() {
   var mostRecent = '1381323389';
 
   test('filters to highest number (most recent build)', function() {
-    assert.equal(
-      subject({}, fixture),
-      mostRecent
+    assert.ok(
+      subject({}, fixture).indexOf(mostRecent) !== -1,
+      'contains most recent build'
     );
   });
 });
