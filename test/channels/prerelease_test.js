@@ -23,7 +23,7 @@ suite('channels/pre_release', function() {
   });
 
   var B2G_BRANCHES = BRANCHES.concat([
-    'nightly/latest-mozilla-b2g26_v1_2/'
+    'nightly/latest-mozilla-b2g30_v1_4/'
   ]);
 
   // b2g operating systems
