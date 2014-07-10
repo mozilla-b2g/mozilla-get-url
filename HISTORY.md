@@ -1,3 +1,6 @@
+- 0.4.0
+  - Add inacivitiy timeout.
+
 - 0.2.0
   - add xullrunner support
 
