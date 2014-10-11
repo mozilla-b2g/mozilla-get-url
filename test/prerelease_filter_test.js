@@ -8,6 +8,10 @@ suite('filter', function() {
   suite('multi version', function() {
     var input = fixture('multi_version_b2g');
 
+    // For this case the fixture also includes a firefox binary that is more
+    // recent than the b2g binary.  There was a bug where we would pick the
+    // firefox binary over the b2g binary, so this provides our coverage to
+    // ensure that we filter by product name as well.
     test('os: linux-x86_64', function() {
       // in pre-release we have multiple mac types
       var result = subject({ product: 'b2g', os: 'linux-x86_64' }, input);

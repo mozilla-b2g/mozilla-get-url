@@ -1311,6 +1311,29 @@
     }
   },
   {
+    "name": "firefox-27.0a1.multi.linux-x86_64.tar.bz2",
+    "type": 0,
+    "time": 1380053470000,
+    "size": "102809276",
+    "owner": "ftp",
+    "group": "ftp",
+    "userPermissions": {
+      "read": true,
+      "write": true,
+      "exec": false
+    },
+    "groupPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    },
+    "otherPermissions": {
+      "read": true,
+      "write": false,
+      "exec": false
+    }
+  },
+  {
     "name": "b2g-27.0a1.multi.linux-x86_64.tar.bz2",
     "type": 0,
     "time": 1380053460000,
