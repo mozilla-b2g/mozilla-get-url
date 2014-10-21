@@ -17,6 +17,11 @@ suite('channels/release', function() {
     verifyGet({ os: 'mac', channel: 'release' }, function() {
       assert(this.url.indexOf('releases') !== -1, 'uses release channel');
     });
+
+    // explicit host
+    verifyGet({ os: 'mac', channel: 'release', host: 'releases.mozilla.org' }, function() {
+      assert(this.url.indexOf('releases.mozilla.org') !== -1, 'uses releases.mozilla.org');
+    });
   });
 
   suite('pre-release channel', function() {

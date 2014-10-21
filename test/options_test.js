@@ -1,3 +1,5 @@
+var FTP_HOST = require("../lib/urls").FTP_HOST;
+
 suite('options', function() {
   var subject = require('../lib/options');
 
@@ -23,7 +25,8 @@ suite('options', function() {
         product: 'firefox',
         channel: 'release',
         branch: 'latest',
-        language: 'en-US'
+        language: 'en-US',
+        host: FTP_HOST
       }
     );
   });
