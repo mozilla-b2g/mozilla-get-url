@@ -24,6 +24,11 @@ program.
     '-c, --channel [name]',
     'pre-release channel [tinderbox, release, prerelease]',
     'release'
+  ).
+  option(
+    '-h, --host [name]',
+    'hostname to use [ftp.mozilla.org, releases.mozila.org]',
+    'release'
   );
 
 function main() {
